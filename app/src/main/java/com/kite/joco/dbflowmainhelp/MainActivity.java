@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i(LOGTAG, " This ant is " + gender + " type " + aitem.getType() + " . ");
             Log.i(LOGTAG, " My queen is (1) " + aitem.getMyQueen().getName());
             //Log.i(LOGTAG, " My queen is (2) " + aitem.getMyQueen2().getName()); turned off because of exception
-            Log.i(LOGTAG, " My queen is (3) " + aitem.getMyQueen3().getName());
+            //Log.i(LOGTAG, " My queen is (3) " + aitem.getMyQueen3().getName()); turned off because of exception
         }
 
         List<Queen> queenList = new Select().from(Queen.class).queryList();
