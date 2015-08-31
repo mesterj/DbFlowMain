@@ -64,6 +64,7 @@ public class Ant extends BaseModel {
         queenModelContainer.setModel(queen);
     }
 
+    //  And the working version
     public void goodassociateQueen(Queen queen) {
         queenModelContainer = new ForeignKeyContainer<>(Queen.class);
         queenModelContainer.put(Queen$Table.ID, queen.getId());
